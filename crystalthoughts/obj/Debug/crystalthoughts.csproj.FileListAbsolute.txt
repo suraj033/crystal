@@ -1,0 +1,180 @@
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\crystalthoughts.dll.config
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\crystalthoughts.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\crystalthoughts.pdb
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\csc.exe
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\csc.exe.config
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\csc.rsp
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\csi.exe
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\csi.exe.config
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\csi.rsp
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.AppContext.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Console.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.IO.Compression.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.Claims.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.ValueTuple.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\vbc.exe
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\vbc.exe.config
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\vbc.rsp
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\VBCSCompiler.exe
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Antlr3.Runtime.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.Auth.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.Core.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.PlatformServices.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.YouTube.v3.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Newtonsoft.Json.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.Helpers.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.Mvc.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.Optimization.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.Razor.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.WebPages.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.WebPages.Razor.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\WebGrease.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.pdb
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.xml
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.Auth.pdb
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.Auth.xml
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.Core.pdb
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.Core.xml
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.YouTube.v3.pdb
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Google.Apis.YouTube.v3.xml
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.Helpers.xml
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.Mvc.xml
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.Optimization.xml
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.Razor.xml
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.WebPages.xml
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\System.Web.WebPages.Razor.xml
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Newtonsoft.Json.xml
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Antlr3.Runtime.pdb
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\obj\Debug\crystalthoughts.csprojAssemblyReference.cache
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\obj\Debug\crystalthoughts.csproj.CoreCompileInputs.cache
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\obj\Debug\crystalthoughts.csproj.CopyComplete
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\obj\Debug\crystalthoughts.dll
+C:\Users\Win-1\source\repos\crystalthoughts\crystalthoughts\obj\Debug\crystalthoughts.pdb
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\crystalthoughts.dll.config
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\crystalthoughts.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\crystalthoughts.pdb
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\csc.exe
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\csc.exe.config
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\csc.rsp
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\csi.exe
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\csi.exe.config
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\csi.rsp
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.AppContext.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Collections.Immutable.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Console.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.IO.Compression.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.IO.FileSystem.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.IO.Pipes.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Reflection.Metadata.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.AccessControl.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.Claims.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.ValueTuple.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Xml.XPath.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\vbc.exe
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\vbc.exe.config
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\vbc.rsp
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\VBCSCompiler.exe
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\roslyn\VBCSCompiler.exe.config
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Antlr3.Runtime.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.Auth.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.Auth.PlatformServices.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.Core.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.PlatformServices.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.YouTube.v3.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Microsoft.Web.Infrastructure.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Newtonsoft.Json.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.Helpers.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.Mvc.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.Optimization.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.Razor.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.WebPages.Deployment.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.WebPages.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.WebPages.Razor.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\WebGrease.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.pdb
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.xml
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.Auth.pdb
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.Auth.xml
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.Core.pdb
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.Core.xml
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.YouTube.v3.pdb
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Google.Apis.YouTube.v3.xml
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.Helpers.xml
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.Mvc.xml
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.Optimization.xml
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.Razor.xml
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.WebPages.xml
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.WebPages.Deployment.xml
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\System.Web.WebPages.Razor.xml
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Newtonsoft.Json.xml
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Antlr3.Runtime.pdb
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\obj\Debug\crystalthoughts.csproj.CoreCompileInputs.cache
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\obj\Debug\crystalthoughts.csproj.CopyComplete
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\obj\Debug\crystalthoughts.dll
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\obj\Debug\crystalthoughts.pdb
+D:\Suraj Project\Running Project\crystalthoughts\crystalthoughts\obj\Debug\crystalthoughts.csprojAssemblyReference.cache

@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "enquiry";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    TempData["enquiry_page"] = "class=" + "active";
+    TempData["enquiry_in"] = "in";
+}
+<div class="page-content">
+    <div class="row">
+        <div class="col-lg-12">
+            <div style="background: transparent; border: 0; box-shadow: none !important" class="tab-content pan mtl mbn responsive hidden-xs hidden-sm">
+                <div id="tab-two-columns">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="panel panel-grey">
+                                <table class="table table-hover table-striped table-bordered table-advanced tablesorter tb-sticky-header" style="padding: 0px;">
+                                    <thead class="tableFloatingHeaderOriginal" style="position: static; top: 0px; margin-top: 0px; left: 286px; z-index: 1; width: 1026px;">
+                                        <tr>
+                                            <th>Sr No</th>
+                                            <th>Name</th>
+                                            <th>Email</th>
+                                            <th>Subject</th>
+                                            <th>Message</th>
+                                            <th>Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (crystalthoughts.Models.Contectusdata i in ViewBag.contactuslist)
+                                        {
+                                            <tr>
+                                                <td>@i.Contectid</td>
+                                                <td>
+                                                    @i.Name
+                                                </td>
+                                                <td>@i.Email</td>
+                                                <td>@i.Subject</td>
+                                                <td>@i.Message</td>
+                                                <td>@i.ContectDate</td>                                                
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+

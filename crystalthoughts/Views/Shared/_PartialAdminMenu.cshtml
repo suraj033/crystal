@@ -1,0 +1,126 @@
+﻿@using System.Data;
+@using crystalthoughts.Models;
+@using crystalthoughts.Helpers;
+
+@{
+    HttpCookie loginCookie = Request.Cookies["crystalthoughts"];
+    EncryptDecrypt enc = new EncryptDecrypt();
+    DataSet Ds = new DataSet();
+    Property p = new Property();
+    DLayer Dl = new DLayer();
+    //string a = enc.Decrypt(loginCookie["Email"]);
+}
+
+<ul id="side-menu" class="nav" style="">
+    <li class="user-panel">
+        <div class="info"><p> @*@enc.Decrypt(loginCookie["Email"]);*@</p><ul class="list-inline list-unstyled"><li><a href="extra-profile.html" data-hover="tooltip" title="" data-original-title="Profile"><i class="fa fa-user"></i></a></li><li><a href="email-inbox.html" data-hover="tooltip" title="" data-original-title="Mail"><i class="fa fa-envelope"></i></a></li><li><a href="#" data-hover="tooltip" title="" data-toggle="modal" data-target="#modal-config" data-original-title="Setting"><i class="fa fa-cog"></i></a></li><li><a href="extra-signin.html" data-hover="tooltip" title="" data-original-title="Logout"><i class="fa fa-sign-out"></i></a></li></ul></div><div class="clearfix"></div>
+    </li>
+    <li><a href="/admin"><i class="fa fa-tachometer fa-fw"><div class="icon-bg bg-orange"></div></i><span class="menu-title">Dashboard</span></a></li>
+    <li @TempData["about"]>
+        <a href="#">
+            <i class="fa fa-cogs">
+                <div class="icon-bg bg-dark"></div>
+            </i><span class="menu-title">About Section</span><span class="fa arrow"></span>
+        </a>
+        <ul class="nav nav-third-level collapse" @TempData["about_in"]>
+            <li @TempData["about"]>
+                <a href="/admin/aboutus">
+                    <i class="fa fa-angle-right"></i>
+                    <span class="submenu-title">Add AboutUs</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    <li @TempData["blog"]>
+        <a href="#">
+            <i class="fa fa-cogs">
+                <div class="icon-bg bg-dark"></div>
+            </i><span class="menu-title">Blog Section</span><span class="fa arrow"></span>
+        </a>
+        <ul class="nav nav-third-level collapse" @TempData["blog_in"]>
+            <li @TempData["blog"]>
+                <a href="/admin/blog">
+                    <i class="fa fa-angle-right"></i>
+                    <span class="submenu-title">Upload Blog</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="nav nav-third-level collapse" @TempData["bloglist_in"]>
+            <li @TempData["bloglist"]>
+                <a href="/admin/bloglist">
+                    <i class="fa fa-angle-right"></i>
+                    <span class="submenu-title">Blog List</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    @*<li @TempData["press"]>
+        <a href="#">
+            <i class="fa fa-cogs">
+                <div class="icon-bg bg-dark"></div>
+            </i><span class="menu-title">Press Section</span><span class="fa arrow"></span>
+        </a>
+        <ul class="nav nav-third-level collapse" @TempData["Press_in"]>
+            <li @TempData["Press"]>
+                <a href="/Booking/Index">
+                    <i class="fa fa-angle-right"></i>
+                    <span class="submenu-title">Upload Press</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    <li @TempData["event"]>
+        <a href="#">
+            <i class="fa fa-cogs">
+                <div class="icon-bg bg-dark"></div>
+            </i><span class="menu-title">Event Section</span><span class="fa arrow"></span>
+        </a>
+        <ul class="nav nav-third-level collapse" @TempData["Event_in"]>
+            <li @TempData["Press"]>
+                <a href="/Booking/Index">
+                    <i class="fa fa-angle-right"></i>
+                    <span class="submenu-title">Upload Event</span>
+                </a>
+            </li>
+        </ul>
+    </li>*@
+    <li @TempData["comment_page"]>
+        <a href="#">
+            <i class="fa fa-cogs">
+                <div class="icon-bg bg-dark"></div>
+            </i><span class="menu-title">Comment Section</span><span class="fa arrow"></span>
+        </a>
+        <ul class="nav nav-third-level collapse" @TempData["Comment_in"]>
+            <li @TempData["comment_page"]>
+                <a href="/admin/commentlist">
+                    <i class="fa fa-angle-right"></i>
+                    <span class="submenu-title">View Comment</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="nav nav-third-level collapse" @TempData["Comment_in"]>
+            <li @TempData["blogcommentlist"]>
+                <a href="/admin/blogcommentlist">
+                    <i class="fa fa-angle-right"></i>
+                    <span class="submenu-title">View Blog Comment</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    <li @TempData["enquiry_page"]>
+        <a href="#">
+            <i class="fa fa-cogs">
+                <div class="icon-bg bg-dark"></div>
+            </i><span class="menu-title">Enquiry Section</span><span class="fa arrow"></span>
+        </a>
+        <ul class="nav nav-third-level collapse" @TempData["enquiry_in"]>
+            <li @TempData["enquiry_page"]>
+                <a href="/admin/enquiry">
+                    <i class="fa fa-angle-right"></i>
+                    <span class="submenu-title">View Enquiry</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+</ul>
+

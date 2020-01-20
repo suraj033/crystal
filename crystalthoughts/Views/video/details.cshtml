@@ -1,0 +1,412 @@
+﻿@model crystalthoughts.Models.Videolist
+@{
+    HttpCookie loginCookie = Request.Cookies["crystalthoughts"];
+    ViewBag.Title = "details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var info = Model;
+}
+
+<!-- full width Video -->
+<section class="fullwidth-single-video">
+    <div class="row">
+        <div class="large-12 columns">
+            <div class="flex-video widescreen">
+                <iframe width="420" height="315" src="@info.Video" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="row">
+    <div class="large-12 columns">
+        @*<section class="SinglePostStats">
+                <div class="row secBg">
+                    <div class="large-12 columns">
+                        <div class="media-object stack-for-small">
+                            <div class="media-object-section">
+                                <div class="author-img-sec">
+                                    <div class="thumbnail author-single-post">
+                                        <a href="#"><img src="@info.Videoimage.Replace("~","")" alt="post"></a>
+                                    </div>
+                                    <p class="text-center"><a href="#">@info.Title</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>*@<!-- End single post stats -->
+        <!-- single post description -->
+        <section class="singlePostDescription">
+            <div class="row secBg">
+                <div class="large-12 columns">
+                    <div class="heading">
+                        <h5>Description</h5>
+                    </div>
+                    <div class="description showmore_one">
+                        <p>@info.Description</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content content-with-sidebar related">
+            <div class="row secBg">
+                <div class="large-12 columns">
+                    <div class="main-heading borderBottom">
+                        <div class="row padding-14">
+                            <div class="medium-12 small-12 columns">
+                                <div class="head-title">
+                                    <i class="fa fa-film"></i>
+                                    <h4>Related Videos</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row list-group">
+                        @*<div class="item large-4 columns end group-item-grid-default">
+                                <div class="post thumb-border">
+                                    <div class="post-thumb">
+                                        <img src="/images/landing/landing-small1.png" alt="landing">
+                                        <a href="#" class="hover-posts">
+                                            <span><i class="fa fa-play"></i>Watch Video</span>
+                                        </a>
+                                        <div class="video-stats clearfix">
+                                            <div class="thumb-stats pull-left">
+                                                <h6>HD</h6>
+                                            </div>
+                                            <div class="thumb-stats pull-left">
+                                                <i class="fa fa-heart"></i>
+                                                <span>506</span>
+                                            </div>
+                                            <div class="thumb-stats pull-right">
+                                                <span>05:56</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-des">
+                                        <h6><a href="#">There are many variations of passage.</a></h6>
+                                        <div class="post-stats clearfix">
+                                            <p class="pull-left">
+                                                <i class="fa fa-user"></i>
+                                                <span><a href="#">admin</a></span>
+                                            </p>
+                                            <p class="pull-left">
+                                                <i class="fa fa-clock-o"></i>
+                                                <span>5 January 16</span>
+                                            </p>
+                                            <p class="pull-left">
+                                                <i class="fa fa-eye"></i>
+                                                <span>1,862K</span>
+                                            </p>
+                                        </div>
+                                        <div class="post-summary">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                        </div>
+                                        <div class="post-button">
+                                            <a href="#" class="secondary-button"><i class="fa fa-play-circle"></i>watch video</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item large-4 columns end group-item-grid-default">
+                                <div class="post thumb-border">
+                                    <div class="post-thumb">
+                                        <img src="/images/landing/landing-small2.png" alt="landing">
+                                        <a href="#" class="hover-posts">
+                                            <span><i class="fa fa-play"></i>Watch Video</span>
+                                        </a>
+                                        <div class="video-stats clearfix">
+                                            <div class="thumb-stats pull-left">
+                                                <h6>HD</h6>
+                                            </div>
+                                            <div class="thumb-stats pull-left">
+                                                <i class="fa fa-heart"></i>
+                                                <span>506</span>
+                                            </div>
+                                            <div class="thumb-stats pull-right">
+                                                <span>05:56</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-des">
+                                        <h6><a href="#">There are many variations of passage.</a></h6>
+                                        <div class="post-stats clearfix">
+                                            <p class="pull-left">
+                                                <i class="fa fa-user"></i>
+                                                <span><a href="#">admin</a></span>
+                                            </p>
+                                            <p class="pull-left">
+                                                <i class="fa fa-clock-o"></i>
+                                                <span>5 January 16</span>
+                                            </p>
+                                            <p class="pull-left">
+                                                <i class="fa fa-eye"></i>
+                                                <span>1,862K</span>
+                                            </p>
+                                        </div>
+                                        <div class="post-summary">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                        </div>
+                                        <div class="post-button">
+                                            <a href="#" class="secondary-button"><i class="fa fa-play-circle"></i>watch video</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item large-4 columns end group-item-grid-default">
+                                <div class="post thumb-border">
+                                    <div class="post-thumb">
+                                        <img src="/images/landing/landing-small3.png" alt="landing">
+                                        <a href="#" class="hover-posts">
+                                            <span><i class="fa fa-play"></i>Watch Video</span>
+                                        </a>
+                                        <div class="video-stats clearfix">
+                                            <div class="thumb-stats pull-left">
+                                                <h6>HD</h6>
+                                            </div>
+                                            <div class="thumb-stats pull-left">
+                                                <i class="fa fa-heart"></i>
+                                                <span>506</span>
+                                            </div>
+                                            <div class="thumb-stats pull-right">
+                                                <span>05:56</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-des">
+                                        <h6><a href="#">There are many variations of passage.</a></h6>
+                                        <div class="post-stats clearfix">
+                                            <p class="pull-left">
+                                                <i class="fa fa-user"></i>
+                                                <span><a href="#">admin</a></span>
+                                            </p>
+                                            <p class="pull-left">
+                                                <i class="fa fa-clock-o"></i>
+                                                <span>5 January 16</span>
+                                            </p>
+                                            <p class="pull-left">
+                                                <i class="fa fa-eye"></i>
+                                                <span>1,862K</span>
+                                            </p>
+                                        </div>
+                                        <div class="post-summary">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                        </div>
+                                        <div class="post-button">
+                                            <a href="#" class="secondary-button"><i class="fa fa-play-circle"></i>watch video</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item large-4 columns end group-item-grid-default">
+                                <div class="post thumb-border">
+                                    <div class="post-thumb">
+                                        <img src="/images/widget-most2.png" alt="landing">
+                                        <a href="#" class="hover-posts">
+                                            <span><i class="fa fa-play"></i>Watch Video</span>
+                                        </a>
+                                        <div class="video-stats clearfix">
+                                            <div class="thumb-stats pull-left">
+                                                <h6>HD</h6>
+                                            </div>
+                                            <div class="thumb-stats pull-left">
+                                                <i class="fa fa-heart"></i>
+                                                <span>506</span>
+                                            </div>
+                                            <div class="thumb-stats pull-right">
+                                                <span>05:56</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-des">
+                                        <h6><a href="#">There are many variations of passage.</a></h6>
+                                        <div class="post-stats clearfix">
+                                            <p class="pull-left">
+                                                <i class="fa fa-user"></i>
+                                                <span><a href="#">admin</a></span>
+                                            </p>
+                                            <p class="pull-left">
+                                                <i class="fa fa-clock-o"></i>
+                                                <span>5 January 16</span>
+                                            </p>
+                                            <p class="pull-left">
+                                                <i class="fa fa-eye"></i>
+                                                <span>1,862K</span>
+                                            </p>
+                                        </div>
+                                        <div class="post-summary">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                        </div>
+                                        <div class="post-button">
+                                            <a href="#" class="secondary-button"><i class="fa fa-play-circle"></i>watch video</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item large-4 columns end group-item-grid-default">
+                                <div class="post thumb-border">
+                                    <div class="post-thumb">
+                                        <img src="/images/slider-carousel4.png" alt="landing">
+                                        <a href="#" class="hover-posts">
+                                            <span><i class="fa fa-play"></i>Watch Video</span>
+                                        </a>
+                                        <div class="video-stats clearfix">
+                                            <div class="thumb-stats pull-left">
+                                                <h6>HD</h6>
+                                            </div>
+                                            <div class="thumb-stats pull-left">
+                                                <i class="fa fa-heart"></i>
+                                                <span>506</span>
+                                            </div>
+                                            <div class="thumb-stats pull-right">
+                                                <span>05:56</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-des">
+                                        <h6><a href="#">There are many variations of passage.</a></h6>
+                                        <div class="post-stats clearfix">
+                                            <p class="pull-left">
+                                                <i class="fa fa-user"></i>
+                                                <span><a href="#">admin</a></span>
+                                            </p>
+                                            <p class="pull-left">
+                                                <i class="fa fa-clock-o"></i>
+                                                <span>5 January 16</span>
+                                            </p>
+                                            <p class="pull-left">
+                                                <i class="fa fa-eye"></i>
+                                                <span>1,862K</span>
+                                            </p>
+                                        </div>
+                                        <div class="post-summary">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                        </div>
+                                        <div class="post-button">
+                                            <a href="#" class="secondary-button"><i class="fa fa-play-circle"></i>watch video</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item large-4 columns end group-item-grid-default">
+                                <div class="post thumb-border">
+                                    <div class="post-thumb">
+                                        <img src="/images/video-thumbnail/1.jpg" alt="landing">
+                                        <a href="#" class="hover-posts">
+                                            <span><i class="fa fa-play"></i>Watch Video</span>
+                                        </a>
+                                        <div class="video-stats clearfix">
+                                            <div class="thumb-stats pull-left">
+                                                <h6>HD</h6>
+                                            </div>
+                                            <div class="thumb-stats pull-left">
+                                                <i class="fa fa-heart"></i>
+                                                <span>506</span>
+                                            </div>
+                                            <div class="thumb-stats pull-right">
+                                                <span>05:56</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-des">
+                                        <h6><a href="#">There are many variations of passage.</a></h6>
+                                        <div class="post-stats clearfix">
+                                            <p class="pull-left">
+                                                <i class="fa fa-user"></i>
+                                                <span><a href="#">admin</a></span>
+                                            </p>
+                                            <p class="pull-left">
+                                                <i class="fa fa-clock-o"></i>
+                                                <span>5 January 16</span>
+                                            </p>
+                                            <p class="pull-left">
+                                                <i class="fa fa-eye"></i>
+                                                <span>1,862K</span>
+                                            </p>
+                                        </div>
+                                        <div class="post-summary">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                        </div>
+                                        <div class="post-button">
+                                            <a href="#" class="secondary-button"><i class="fa fa-play-circle"></i>watch video</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>*@
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content comments">
+            <div class="row secBg">
+                <div class="large-12 columns">
+                    <div class="main-heading borderBottom">
+                        <div class="row padding-14">
+                            <div class="medium-12 small-12 columns">
+                                <div class="head-title">
+                                    <i class="fa fa-comments"></i>
+                                    <h4>
+                                        Comments <span>(0)</span>
+                                        <span style="color:#00ff21">
+                                            @if (TempData["MSG"] != null)
+                                            {
+                                                @TempData["MSG"]
+                                            }
+                                        </span>
+
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-box thumb-border">
+                        <div class="media-object stack-for-small">
+                            <div class="media-object-section comment-img text-center">
+                                <div class="comment-box-img">
+                                    <img src="/images/post-author-post.png" alt="comment">
+                                </div>
+                         
+                            </div>
+                            <div class="media-object-section comment-textarea">
+                                @if (loginCookie != null)
+                                {
+                                    <form method="post" action="/video/comment">
+                                        <textarea name="comment" placeholder="Add a comment here.."></textarea>
+                                        <input type="submit" name="submit" value="send">
+                                    </form>
+                                }
+                                else
+                                {
+                                    <a href="/account/login/@info.Videoid" style="margin-right:15px;float:right" class="button radius">Login</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-sort text-right">
+                        <span>Sort By : <a href="#">newest</a> | <a href="#">oldest</a></span>
+                    </div>
+                    <div class="main-comment showmore_one">
+                        <div class="media-object stack-for-small">
+                            <div class="media-object-section comment-img text-center">
+                                <div class="comment-box-img">
+                                    <img src="/images/post-author-post.png" alt="comment">
+                                </div>
+                            </div>
+                            @foreach (crystalthoughts.Models.Account_Data c in ViewBag.commentlist)
+                            {
+                                <div class="media-object-section comment-desc">
+                                    <div class="comment-title">
+                                        <span class="name"><a href="#">@c.Name</a> Said:</span>
+                                        <span class="time float-right"><i class="fa fa-clock-o"></i>@c.Date</span>
+                                    </div>
+                                    <div class="comment-text">
+                                        <p>@c.comment</p>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+

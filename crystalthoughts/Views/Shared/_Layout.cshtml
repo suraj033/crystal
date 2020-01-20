@@ -1,0 +1,145 @@
+﻿@using System.Data;
+@using crystalthoughts.Models;
+@using crystalthoughts.Helpers;
+@{
+    HttpCookie loginCookie = Request.Cookies["crystalthoughts"];
+    EncryptDecrypt enc = new EncryptDecrypt();
+}
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal thoughts</title>
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/layerslider/css/layerslider.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+<body>
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+            <!--header-->
+            <div class="off-canvas position-left light-off-menu" id="offCanvas-responsive" data-off-canvas>
+                <div class="off-menu-close">
+                    <h3>Menu</h3>
+                    <span data-toggle="offCanvas-responsive"><i class="fa fa-times"></i></span>
+                </div>
+                <ul class="vertical menu off-menu" data-responsive-menu="drilldown">
+                    <li><a href="/"><i class="fa fa-th"></i>home</a></li>
+                    <li><a href="/about"><i class="fa fa-th"></i>about</a></li>
+                    <li><a href="/blog"><i class="fa fa-th"></i>blog</a></li>
+                    <li><a href="/video"><i class="fa fa-th"></i>videos</a></li>
+                    @*<li><a href="javascript:void(0)"><i class="fa fa-th"></i>press</a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-th"></i>events</a></li>*@
+                    <li><a href="/contactus"><i class="fa fa-th"></i>contact</a></li>
+                    @*<li><a href="#"><i class="fa fa-money"></i>Donate Now</a></li>*@
+                    <li>
+                        @if (loginCookie != null)
+                        {
+                            <a href="/admin/Logout"><i class="fa fa-sign-out"></i>Logout</a>
+                        }
+                        else
+                        {
+                            <a href="/account/signin"><i class="fa fa-user"></i>Login</a>
+                        }
+                    </li>
+                </ul>
+            </div>
+            <div class="off-canvas-content" data-off-canvas-content>
+                <header>
+
+                    <!--Navber-->
+                    <section id="navBar" style="background-color:rgb(0, 0, 2);">
+                        <nav class="sticky-container" data-sticky-container>
+                            <div class="sticky topnav" data-sticky data-top-anchor="navBar" data-btm-anchor="footer-bottom:bottom" data-margin-top="0" data-margin-bottom="0" style="width: 100%; background: rgb(0, 0, 2);" data-sticky-on="large">
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <div class="title-bar" data-responsive-toggle="beNav" data-hide-for="large">
+                                            <button class="menu-icon" type="button" data-toggle="offCanvas-responsive"></button>
+                                            <div class="title-bar-title"><img src="/images/Crystalsmall.jpg" alt="logo"></div>
+                                        </div>
+                                        <div class="top-bar show-for-large" id="beNav" style="width: 100%;">
+                                            <div class="top-bar-left">
+                                                <ul class="menu">
+                                                    <li class="menu-text">
+                                                        <a href="/"><img src="/images/Crystal.jpg" alt="logo" style="width:218px;height:40px"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="top-bar-right">
+                                                <ul class="menu vertical medium-horizontal" data-responsive-menu="drilldown medium-dropdown">
+                                                    <li><a href="/"><i class="fa fa-th"></i>home</a></li>
+                                                    <li><a href="/about"><i class="fa fa-th"></i>about</a></li>
+                                                    <li><a href="/blog"><i class="fa fa-th"></i>blog</a></li>
+                                                    <li><a href="/video"><i class="fa fa-th"></i>videos</a></li>
+                                                    @*<li><a href="javascript:void(0)"><i class="fa fa-th"></i>press</a></li>
+                                                    <li><a href="javascript:void(0)"><i class="fa fa-th"></i>events</a></li>*@
+                                                    <li><a href="/contactus"><i class="fa fa-th"></i>contact</a></li>
+                                                    @*<li><a href="#"><i class="fa fa-money"></i>Donate Now</a></li>*@
+                                                    <li>
+                                                        @if (loginCookie != null)
+                                                        {
+                                                            <a href="/admin/Logout"><i class="fa fa-sign-out"></i>Logout</a>
+                                                        }
+                                                        else
+                                                        {
+                                                            <a href="/account/signin"><i class="fa fa-user"></i>Login</a>
+                                                        }
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </section>
+                </header><!-- End Header -->
+                @RenderBody()
+                <div id="footer-bottom">
+                    <div class="logo text-center">
+                        <img src="/images/Crystal.jpg" style="width:10%" alt="footer logo">
+                    </div>
+                    <div class="btm-footer-text text-center">
+                        <a href="http://winsomeitsolutions.com" target="_blank">
+                            <p>
+                                Copyright ©2019 Winsome IT Solutions. All Rights Reserved
+                            </p>
+                        </a>
+                        <div class="social-links">
+                            <h5></h5>
+                            <a class="secondary-button" href="#"><i class="fa fa-facebook"></i></a>
+                            <a class="secondary-button" href="#"><i class="fa fa-twitter"></i></a>
+                            <a class="secondary-button" href="#"><i class="fa fa-google-plus"></i></a>
+                            <a class="secondary-button" href="#"><i class="fa fa-instagram"></i></a>
+                            <a class="secondary-button" href="#"><i class="fa fa-youtube"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div><!--end off canvas content-->
+        </div><!--end off canvas wrapper inner-->
+    </div><!--end off canvas wrapper-->
+    <!-- script files -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/what-input/what-input.js"></script>
+    <script src="/bower_components/foundation-sites/dist/foundation.js"></script>
+    <script src="/js/jquery.showmore.src.js" type="text/javascript"></script>
+    <script src="/js/app.js"></script>
+    <script src="/layerslider/js/greensock.js" type="text/javascript"></script>
+    <!-- LayerSlider script files -->
+    <script src="/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+    <script src="/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/inewsticker.js" type="text/javascript"></script>
+    <script src="/js/jquery.kyco.easyshare.js" type="text/javascript"></script>
+</body>
+</html>
